@@ -5,7 +5,7 @@ import os
 
 client = commands.Bot(command_prefix = '!')
 client.remove_command("help")
-TOKEN = "OTQ4ODE1ODQxOTIxNzUzMTM4.YiBTnA.7FxMDm8JLuwo-Zq4HyemiX30ncM"
+TOKEN = "token shoma "
 
 @client.command()
 async def mic(ctx):
@@ -16,7 +16,7 @@ async def mic(ctx):
             continue
         else:
             vc += 1
-    img = Image.open("docimic.jpg")
+    img = Image.open("aks shoma")
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("aroal.ttf", 18)
     draw.text((210,300), str(vc), (0,0,0), font=font)
